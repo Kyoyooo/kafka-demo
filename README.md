@@ -1,6 +1,6 @@
 # Bài thực hành Kafka cho môn Xử lý phân tích dữ liệu trực tuyến - CSC17106
 
-Mã nguồn thực hiện phần Bài tập gồm bài cơ bản theo dõi trạng thái mạng và cả hai bài nâng cao trên hệ điều hành Linux. Dữ liệu đầu vào được **giả lập**: không tự quét mạng hoặc đọc log riêng trên máy.
+Mã nguồn thực hiện phần Bài tập gồm bài cơ bản theo dõi trạng thái mạng và cả hai bài nâng cao trên hệ điều hành Linux. Dữ liệu đầu vào được **giả lập**. 
 
 ## Đối chiếu yêu cầu và thiết kế
 
@@ -56,7 +56,7 @@ Cấu hình sinh tại `.runtime/config/`. Dữ liệu broker nằm trong `.runt
 
 Môi trường đã kiểm thử: **Linux x86_64, Python 3.13.5, OpenJDK Temurin 17.0.20.1, Kafka 3.9.1 và confluent-kafka 2.12.0**. Mô hình một broker không có khả năng chịu lỗi bằng replication.
 
-## 2. Bài cơ bản: theo dõi trạng thái thiết bị
+## 2. Bài cơ bản: Theo dõi trạng thái thiết bị
 
 Mở **hai terminal**, cùng ở thư mục bài tập. Terminal thứ nhất:
 
@@ -80,7 +80,7 @@ Consumer hiển thị chuyển trạng thái, kiểm tra chỉ chấp nhận `On
 
 Phần giả lập nằm ở `make_record()` trong `kafka_lab/producer.py`. Có thể thay phần này bằng dữ liệu từ agent hoặc phép kiểm tra mạng thật; các trường JSON và consumer giữ nguyên.
 
-## 3. Nâng cao bài 1: log tập trung
+## 3. Nâng cao bài 1: Log tập trung
 
 Terminal thứ nhất:
 
@@ -114,7 +114,7 @@ Topic có 3 partition nên tối đa 3 consumer trong cùng group có thể nh�
 
 `app-logs` dùng `delete` vì cần giữ lịch sử log trong thời gian retention (7 ngày). `compact` chỉ giữ giá trị mới nhất theo key sau khi background cleaner chạy, nên dùng nó cho log có cùng service key sẽ làm mất lịch sử. Bài áp dụng `compact` cho `network-status`, nơi key là thiết bị và cần giữ trạng thái mới nhất. Compaction không xảy ra ngay khi nhận message. [Apache: Log Compaction](https://kafka.apache.org/39/design/design/#log-compaction).
 
-## 4. Nâng cao bài 2: hành vi người dùng
+## 4. Nâng cao bài 2: Hành vi người dùng
 
 Terminal thứ nhất:
 

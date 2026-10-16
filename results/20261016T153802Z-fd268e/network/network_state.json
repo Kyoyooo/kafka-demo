@@ -1,0 +1,20 @@
+{
+  "server-01": {
+    "device_id": "server-01",
+    "device_type": "server",
+    "status": "Offline",
+    "timestamp": "2026-10-16T15:38:03.071702+00:00"
+  },
+  "switch-01": {
+    "device_id": "switch-01",
+    "device_type": "switch",
+    "status": "Offline",
+    "timestamp": "2026-10-16T15:38:03.171958+00:00"
+  },
+  "router-01": {
+    "device_id": "router-01",
+    "device_type": "router",
+    "status": "Offline",
+    "timestamp": "2026-10-16T15:38:03.121815+00:00"
+  }
+}

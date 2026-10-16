@@ -1,0 +1,19 @@
+{"user_id": "user-02", "event_type": "click", "item_id": "item-01", "timestamp": "2026-10-16T15:38:04.145493+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=0 offset=0
+{"user_id": "user-05", "event_type": "view", "item_id": "item-08", "timestamp": "2026-10-16T15:38:04.195606+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=1 offset=0
+{"user_id": "user-04", "event_type": "purchase", "item_id": "item-05", "timestamp": "2026-10-16T15:38:04.245759+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=2 offset=0
+{"user_id": "user-02", "event_type": "click", "item_id": "item-18", "timestamp": "2026-10-16T15:38:04.295868+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=0 offset=1
+{"user_id": "user-02", "event_type": "view", "item_id": "item-19", "timestamp": "2026-10-16T15:38:04.346005+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=1 offset=1
+{"user_id": "user-07", "event_type": "purchase", "item_id": "item-02", "timestamp": "2026-10-16T15:38:04.396141+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=2 offset=1
+{"user_id": "user-01", "event_type": "click", "item_id": "item-03", "timestamp": "2026-10-16T15:38:04.446317+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=0 offset=2
+{"user_id": "user-04", "event_type": "view", "item_id": "item-08", "timestamp": "2026-10-16T15:38:04.496420+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=1 offset=2
+{"user_id": "user-09", "event_type": "purchase", "item_id": "item-20", "timestamp": "2026-10-16T15:38:04.546570+00:00"}
+ACK user-events-test-20261016t153802z-fd268e partition=2 offset=2
+Đã gửi thành công 9 thông điệp

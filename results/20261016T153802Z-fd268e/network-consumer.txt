@@ -1,0 +1,6 @@
+server-01 (server): Unknown -> Online
+switch-01 (switch): Unknown -> Online
+server-01 (server): Online -> Offline
+switch-01 (switch): Online -> Offline
+router-01 (router): Unknown -> Online
+router-01 (router): Online -> Offline

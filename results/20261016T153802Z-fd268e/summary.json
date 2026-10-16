@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "run_id": "20261016T153802Z-fd268e",
+  "python": "3.13.5",
+  "confluent_kafka": "2.12.0",
+  "kafka": "3.9.1",
+  "topics_suffix": "-test-20261016t153802z-fd268e",
+  "network": {
+    "messages": 6,
+    "devices": 3,
+    "final_status": "Offline"
+  },
+  "logs": {
+    "valid_messages": 9,
+    "errors": 3,
+    "invalid_messages": 2,
+    "first_window": {
+      "INFO": 3,
+      "ERROR": 3,
+      "DEBUG": 3
+    },
+    "idle_window": {
+      "INFO": 0,
+      "ERROR": 0,
+      "DEBUG": 0
+    }
+  },
+  "events": {
+    "messages": 9,
+    "window_seconds": 60,
+    "counts": {
+      "click": 3,
+      "view": 3,
+      "purchase": 3
+    },
+    "partition_mapping_verified": true
+  },
+  "log_headers_verified": true
+}

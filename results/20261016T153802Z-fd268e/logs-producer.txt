@@ -1,0 +1,19 @@
+{"log_level": "INFO", "service_name": "payment", "message": "Request completed", "timestamp": "2026-10-16T15:38:03.583217+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=0 offset=0
+{"log_level": "ERROR", "service_name": "web", "message": "Service request failed", "timestamp": "2026-10-16T15:38:03.633392+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=2 offset=0
+{"log_level": "DEBUG", "service_name": "web", "message": "Inspect request context", "timestamp": "2026-10-16T15:38:03.683522+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=2 offset=1
+{"log_level": "INFO", "service_name": "payment", "message": "Request completed", "timestamp": "2026-10-16T15:38:03.733668+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=0 offset=1
+{"log_level": "ERROR", "service_name": "auth", "message": "Service request failed", "timestamp": "2026-10-16T15:38:03.783829+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=0 offset=2
+{"log_level": "DEBUG", "service_name": "web", "message": "Inspect request context", "timestamp": "2026-10-16T15:38:03.833938+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=2 offset=2
+{"log_level": "INFO", "service_name": "web", "message": "Request completed", "timestamp": "2026-10-16T15:38:03.884067+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=2 offset=3
+{"log_level": "ERROR", "service_name": "web", "message": "Service request failed", "timestamp": "2026-10-16T15:38:03.934256+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=2 offset=4
+{"log_level": "DEBUG", "service_name": "payment", "message": "Inspect request context", "timestamp": "2026-10-16T15:38:03.984418+00:00"}
+ACK app-logs-test-20261016t153802z-fd268e partition=0 offset=3
+Đã gửi thành công 9 thông điệp

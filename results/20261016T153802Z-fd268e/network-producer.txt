@@ -1,0 +1,14 @@
+%4|1792165082.912|GETPID|network-producer#producer-1| [thrd:main]: Failed to acquire idempotence PID from broker 127.0.0.1:9092/1: Broker: Coordinator load in progress: retrying
+{"device_id": "server-01", "device_type": "server", "status": "Online", "timestamp": "2026-10-16T15:38:02.921388+00:00"}
+{"device_id": "router-01", "device_type": "router", "status": "Online", "timestamp": "2026-10-16T15:38:02.971500+00:00"}
+{"device_id": "switch-01", "device_type": "switch", "status": "Online", "timestamp": "2026-10-16T15:38:03.021597+00:00"}
+{"device_id": "server-01", "device_type": "server", "status": "Offline", "timestamp": "2026-10-16T15:38:03.071702+00:00"}
+{"device_id": "router-01", "device_type": "router", "status": "Offline", "timestamp": "2026-10-16T15:38:03.121815+00:00"}
+{"device_id": "switch-01", "device_type": "switch", "status": "Offline", "timestamp": "2026-10-16T15:38:03.171958+00:00"}
+ACK network-status-test-20261016t153802z-fd268e partition=0 offset=0
+ACK network-status-test-20261016t153802z-fd268e partition=0 offset=1
+ACK network-status-test-20261016t153802z-fd268e partition=1 offset=0
+ACK network-status-test-20261016t153802z-fd268e partition=1 offset=1
+ACK network-status-test-20261016t153802z-fd268e partition=1 offset=2
+ACK network-status-test-20261016t153802z-fd268e partition=1 offset=3
+Đã gửi thành công 6 thông điệp
